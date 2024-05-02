@@ -5,7 +5,7 @@
     input, button {
       font-family: Arial, sans-serif;
       margin: 10px;
-      padding: 7px;
+      padding: 8px;
     }
     body{
         font-family: Arial, sans-serif;
@@ -20,9 +20,9 @@
     .container {
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 10px rgba(173, 43, 43, 0.1);
         /* width: 100%; */
-        max-width: 500px;
+        /* max-width: 250px; */
         background-color: cornflowerblue;
         /* background-size: cover; */
     }
@@ -44,11 +44,6 @@
       border-radius: 5px;
       color: #fff; /* White text color */
     }
-    @media only screen and (width: 16px) {
-    .body {
-      width: 900px;
-    }
-  }
 
   </style>
 </head>
@@ -95,9 +90,9 @@
   <script>
     window.addEventListener('resize', function() {
         if (window.innerWidth <= 600) {
-            document.querySelector('.container').style.width = '100%';
+            document.querySelector('.body').style.width = '100%';
         } else {
-            document.querySelector('.container').style.width = '90%';
+            document.querySelector('.body').style.width = '90%';
         }
         });
   </script>
