@@ -1,5 +1,5 @@
 # CHANGELOG.md
 
-## 1.0.0 (Apr 16, 2019)
+## (2024.05.04)
 
 First release
