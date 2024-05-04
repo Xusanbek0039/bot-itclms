@@ -2,4 +2,4 @@
 
 ## (2024.05.04)
 
-First release
+IT Park t.me/itclms_bot uchun ishlab chiqilgan.
